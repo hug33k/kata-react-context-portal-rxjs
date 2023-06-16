@@ -1,0 +1,120 @@
+.thememanager-modal-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #333;
+    z-index: 500;
+    opacity: 0.8;
+}
+
+.thememanager-modal-window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: fit-content;
+    width: 75vw;
+    min-width: 150px;
+    max-width: 1000px;
+    background: #FFF;
+    z-index: 501;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+
+.thememanager-modal-window header {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: left;
+}
+
+.thememanager-modal-window header button#thememanager-modal-window-close {
+    background: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+}
+
+.thememanager-modal-window header select {
+    max-height: 30px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.thememanager-modal-window-content {
+    padding: 0 25px;
+    display: flex;
+}
+
+.thememanager-themes-list {
+    width: 75px;
+    border-right: 1px solid lightgray;
+}
+
+.thememanager-themes-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.thememanager-themes-list ul li {
+    margin: 15px 0;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.25s ease-in-out;
+}
+
+.thememanager-themes-list ul li.active,
+.thememanager-themes-list ul li:hover {
+    font-weight: 800;
+}
+
+.thememanager-themes-list ul li.new {
+    font-weight: 300;
+    font-size: 0.75em;
+}
+
+.thememanager-editor {
+    padding: 15px;
+    width: 100%
+}
+
+.thememanager-editor form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.thememanager-editor form fieldset {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.thememanager-editor form fieldset input {
+    width: 100%;
+}
+
+.thememanager-editor form fieldset > input:first-of-type {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.thememanager-editor-actions {
+    display: flex;
+    gap: 10px;
+}

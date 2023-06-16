@@ -1,0 +1,9 @@
+{
+    "background": "yellow",
+    "color": "black",
+    "border": "2px solid black",
+    "padding": "5px",
+    "margin": "5px",
+    "borderRadius": "5px",
+    "fontWeight": "bold"
+}
